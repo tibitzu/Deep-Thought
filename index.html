@@ -11,14 +11,49 @@ body {background-color: #0000ff;
       margin-left: auto;
       margin-right: auto;
 }
-img {
+.text {
+  white-space: normal;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
+.oval {
+  height: 200px;
+  width: 400px;
+  background-color: #555;
+  border-radius: 50%;
+  color: white;
+}
+.container {
+  attachment: fixed;
+  position: center;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  color: black;
+  text-align: center;
 }
 </style>
 </head>
 <body>
-
-
+  <div class="container">
+    <img src="IMG_4209.jpg" alt="Avatar" class ="image">
+    <div class="overlay">
+      <div class="text">
+       <!--  <b><p class="p2">Hi! Welcome to my website!
+      Here you can find a lot of information about me and get to know me a little bit better! Have fun!</b> -->
+      <p><a class="four" href = "TeamProfile.html" target="_blank"> Team Profile </a></p>
+      <p><a class="four" href = "IT Technologies.html" target="_blank"> IT Technologies </a></p>
+      <p><a class="four" href = "Interview.html" target="_blank"> Interview </a></p>
+      <p><a class="four" href = "Project Idea.html" target="_blank"> Project idea </a></p>
 
 </body>
 </html>
