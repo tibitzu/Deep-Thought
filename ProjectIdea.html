@@ -3,16 +3,36 @@
 <head>
 <style>
 .header img {float:left}
+.header h1{color: Purple;
+         text-align:center;
+         font-size: 50px;
+         font-family: Fantasy;
+         positon: absolute;
+         left: 5%;}
+
+.header h2{color: Purple;
+         text-align:center;
+         font-size: 20px;
+         font-family: 'Courier New', monospace}
 .header {height: 150px;
-         width: 1500px;
+         width: 100%;
          margin-top: 0px;
+         margin-left: 0px;
          Padding: 1px;
          background-color:black;
-         color: Purple;
-         text-align:center;
-         font-size: 32px;
-         font-family: Fantasy
 }
+  .content {margin-right: 300px;
+             margin-left: 300px;
+             border: 5px solid black;
+             background-color: black;
+             opacity: 0.9;
+             text-align: left;
+             height: auto;
+             font-size: 15px;
+             color: white
+}
+  .content h2{color: purple;
+              font-family: fantasy;}
   body {background-color: black;
         background-image: url('Stars.jpg');
         background-repeat: no-repeat;
@@ -28,10 +48,80 @@
   <div class="header">
     <a href="index.html">
     <img src="Earth.jpg" alt="Earth" width="200" height="auto"></a>
-    <h1>Project Idea</h1>
+    <h1>DnD, Beginner's Spell Book companion</h1>
+    <h2>Project Idea</h2>
   </div>
   <br><br>
-  <img src="under-construction.jpg"></img>
-
+  <div class="content">
+    <p>
+      <h2>Overview</h2>
+      <img src="Spellbook.png" alt="16 personality results" width="200" height="auto" align="right">
+      <br><br>
+      Our project is to create a tool designed to help people play Dungeons and Dragons fifth edition. It will do this by acting as a spell book of sorts,
+      with a list of spells that can be selected and added to the list. It will focus on being easy to use and to display options quickly and effectively.
+      It will be able to instruct the user what their spells do and how they work. I also want it to have a function that allows the tool to simulate a
+      dice roll and to total the results with the modifiers for the user.
+      Motivation<br>
+      Elijah was the proposer for this idea, who said this<br>
+      <blockquote>
+        "I’ve got a serious passion in tabletop role playing games (TTRPGs) such as ‘Dungeons and Dragons’ and ‘Starfinder’. Unfortunately, these systems can
+        be complex and intimidating for newer players, basically locking them away from a very fun hobby of mine. For the sake of inclusivity (and because 
+        I always want more players to game with) I think that making spellcasters more accessible to new players would be a major help. No one should need 
+        to memorize a real spell book to pretend to cast spells." -Elijah Goodlet
+      </blockquote>
+      <br><br>
+      <b>Description</b><br>
+      This tool is an app or program that contains a list of spells from dungeons and dragons 5th edition with descriptions and effects. This information
+      will be easily extractable from the "system refrence document" which contains guidelines for publishing content under the Open-Gaming License
+      this will also prevent any breaches of Wizards Of the Coast's copyrights.
+      <br><br>
+      Users first pick their class and level. This information is then used to filter a selection of spells they are allowed to take. Users will be able
+      to add these spells to their ‘spell book’ for quick and easy access. This spellbook will act as a list of spells the user can use. This spellbook 
+      can be sorted by spell name, spell level, or in a custom order. Upon clicking on the spell, a simplified description of the spell will show and
+      instructions on what the player must do. This would include the damage/healing of the spell, The range of the spell, The components of the spell
+      The area of effect any additional effects and the dice required to be rolled. When the dice requiring a roll appear, matching pictures of the dice
+      will be shown allowing easy identification of the dice to new players who can often get them confused. The user then can use the app to roll a digital
+      set of dice, or they could manually enter the roll if they used real dice. The spellbook will also track Spell slots and Health Points. Spell slots
+      would automatically be expended upon use and an option to rest would be given allowing users to automatically reset their health and spell slots that
+      had been expended. One of the biggest features it should have is its ability to add new spells and customize stats to fit when players change their 
+      rules themselves. This will allow adept players to quickly new spells and get back into action as fast as possible. This would need a set of in-depth 
+      options that would allow spells gained from magic items to be treated differently if required. This could include free casts of the spell or an 
+      additional bonus modifier.
+      <br><br>
+      You should be able to import other players creations to your book quickly and easily. This would allow Dungeon master to send out their custom spells 
+      to the players. This would include any tools that were needed such as dice settings and previously mentioned options.
+      This app should have all these features with a clean and simple UI that prioritizes readability and ease of use. A new user should be able to pick up
+      the app and with a little practice be able to figure out how to cast almost any spell. This will be achieved by having a glossary with game terms 
+      defined for new players.
+      <br><br>
+      Finally this Tool requires a save function that allows a saving of selected spells, preferences, and options and changes so that games that last 
+      more then one session do not require multiple setups. idealing these save files are easily extractable so players can share their own saved data
+      across devices
+      <br><br>
+      </div>
+      <div class="content">
+      <h2>Tools and Technology required</h2>
+      <b>Tech required</b><br>
+      Mobile device<br>
+      Computer capable of programming an android app
+      <br><br>
+      <b>Programs required</b><br>
+      The android SDK is required for creating, testing, and debugging the program
+      <br><br>
+      <h2>Skills required</h2>
+      To make this app knowledge of Java is likely needed as most app development is done in that language.<br>
+      Some simple GUI creation will be required to makethe app readable and understandable to new users.<br>
+      As the app is basically a complicated database a deep knowledge on creating and editing a database is required<br>
+      <br><br>
+      </div>
+      <div class="content">
+      <h2>Outcome</h2>
+      If this project is successful, then We believe it has the ability to make TTRPGS much more accessible to new players as it simplifies one of the
+      most complicated parts of the system. The proposed customizability should allow this app to stay relevant and potentially change how new players
+      see playing conventionally difficult classes such as spell casters. <br>
+      <br>
+      Deep thought hopes to see you at the table!
+    </p>
+  </div>
 </body>
 </html>
